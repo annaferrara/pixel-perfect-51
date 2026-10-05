@@ -19,7 +19,7 @@ export const SITE = {
   { day: "Domenica", time: "12:30 - 14:00 / 19:30 - 22:00" },
 ],
   
-  mapQuery: "Trivolzio, Italia", // TODO: sostituire con indirizzo reale
+  mapQuery: "Via D. Sesia, 4, 27020 Trivolzio PV", // TODO: sostituire con indirizzo reale
 };
 
 export const SPECIALITA = [
