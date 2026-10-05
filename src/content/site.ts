@@ -6,12 +6,18 @@ import spaghetti from "@/assets/spaghetti.jpg";
 
 export const SITE = {
   name: "Osteria Tarantina",
-  phoneHref: "tel:+39XXXXXXXXXX", // TODO: inserire numero reale
-  phoneLabel: "+39 XXX XXX XXXX",
-  address: "[INSERIRE INDIRIZZO]",
-  hours: "[INSERIRE ORARI]",
-  email: "[INSERIRE EMAIL]",
-  mapQuery: "Taranto, Italia", // TODO: sostituire con indirizzo reale
+  phoneHref: "tel:+39 344 1304 304", // TODO: inserire numero reale
+  phoneLabel: "+39 344 1304 304",
+  address: "Via D. Sesia, 4, 27020 Trivolzio PV",
+  hours: "Lunedí, Chiuso",
+  hours: "Martedí, 19:30 - 22:30",
+  hours: "Mercoledí, 19:30 - 22:30",
+  hours: "Giovedí, 12:30 - 14:30   19:30 - 22:30",
+  hours: "Venerdí, 12:30 - 14:30   19:30 - 22:30",
+  hours: "Sabato, 12:30 - 14:30   19:30 - 22:30",
+  hours: "Domenica, 12:30 - 14:00   19:30 - 22:00",
+  
+  mapQuery: "Trivolzio, Italia", // TODO: sostituire con indirizzo reale
 };
 
 export const SPECIALITA = [
