@@ -10,33 +10,102 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ContattiRouteImport } from './routes/contatti'
+import { Route as CookiePolicyRouteImport } from './routes/cookie-policy'
+import { Route as IlRistoranteRouteImport } from './routes/il-ristorante'
+import { Route as MenuRouteImport } from './routes/menu'
+import { Route as PrivacyPolicyRouteImport } from './routes/privacy-policy'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ContattiRoute = ContattiRouteImport.update({
+  id: '/contatti',
+  path: '/contatti',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CookiePolicyRoute = CookiePolicyRouteImport.update({
+  id: '/cookie-policy',
+  path: '/cookie-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const IlRistoranteRoute = IlRistoranteRouteImport.update({
+  id: '/il-ristorante',
+  path: '/il-ristorante',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MenuRoute = MenuRouteImport.update({
+  id: '/menu',
+  path: '/menu',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PrivacyPolicyRoute = PrivacyPolicyRouteImport.update({
+  id: '/privacy-policy',
+  path: '/privacy-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/contatti': typeof ContattiRoute
+  '/cookie-policy': typeof CookiePolicyRoute
+  '/il-ristorante': typeof IlRistoranteRoute
+  '/menu': typeof MenuRoute
+  '/privacy-policy': typeof PrivacyPolicyRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/contatti': typeof ContattiRoute
+  '/cookie-policy': typeof CookiePolicyRoute
+  '/il-ristorante': typeof IlRistoranteRoute
+  '/menu': typeof MenuRoute
+  '/privacy-policy': typeof PrivacyPolicyRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/contatti': typeof ContattiRoute
+  '/cookie-policy': typeof CookiePolicyRoute
+  '/il-ristorante': typeof IlRistoranteRoute
+  '/menu': typeof MenuRoute
+  '/privacy-policy': typeof PrivacyPolicyRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/contatti'
+    | '/cookie-policy'
+    | '/il-ristorante'
+    | '/menu'
+    | '/privacy-policy'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/contatti'
+    | '/cookie-policy'
+    | '/il-ristorante'
+    | '/menu'
+    | '/privacy-policy'
+  id:
+    | '__root__'
+    | '/'
+    | '/contatti'
+    | '/cookie-policy'
+    | '/il-ristorante'
+    | '/menu'
+    | '/privacy-policy'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ContattiRoute: typeof ContattiRoute
+  CookiePolicyRoute: typeof CookiePolicyRoute
+  IlRistoranteRoute: typeof IlRistoranteRoute
+  MenuRoute: typeof MenuRoute
+  PrivacyPolicyRoute: typeof PrivacyPolicyRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +117,51 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/contatti': {
+      id: '/contatti'
+      path: '/contatti'
+      fullPath: '/contatti'
+      preLoaderRoute: typeof ContattiRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/cookie-policy': {
+      id: '/cookie-policy'
+      path: '/cookie-policy'
+      fullPath: '/cookie-policy'
+      preLoaderRoute: typeof CookiePolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/il-ristorante': {
+      id: '/il-ristorante'
+      path: '/il-ristorante'
+      fullPath: '/il-ristorante'
+      preLoaderRoute: typeof IlRistoranteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/menu': {
+      id: '/menu'
+      path: '/menu'
+      fullPath: '/menu'
+      preLoaderRoute: typeof MenuRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/privacy-policy': {
+      id: '/privacy-policy'
+      path: '/privacy-policy'
+      fullPath: '/privacy-policy'
+      preLoaderRoute: typeof PrivacyPolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ContattiRoute: ContattiRoute,
+  CookiePolicyRoute: CookiePolicyRoute,
+  IlRistoranteRoute: IlRistoranteRoute,
+  MenuRoute: MenuRoute,
+  PrivacyPolicyRoute: PrivacyPolicyRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
