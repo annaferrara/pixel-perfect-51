@@ -10,10 +10,6 @@ export const SITE = {
   phoneLabel: "+39 344 1304 304",
   address: "Via D. Sesia, 4, 27020 Trivolzio PV",
  // Tutti i contenuti modificabili del sito in un unico posto.
-import cozze from "@/assets/cozze.jpg";
-import tiella from "@/assets/tiella.jpg";
-import pesce from "@/assets/pesce.jpg";
-import spaghetti from "@/assets/spaghetti.jpg";
 
 export const SITE = {
   name: "Osteria Tarantina",
@@ -21,10 +17,6 @@ export const SITE = {
   phoneLabel: "+39 344 1304 304",
   address: "Via D. Sesia, 4, 27020 Trivolzio PV",
  // Tutti i contenuti modificabili del sito in un unico posto.
-import cozze from "@/assets/cozze.jpg";
-import tiella from "@/assets/tiella.jpg";
-import pesce from "@/assets/pesce.jpg";
-import spaghetti from "@/assets/spaghetti.jpg";
 
 export const SITE = {
   name: "Osteria Tarantina",
