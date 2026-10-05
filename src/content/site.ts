@@ -9,13 +9,15 @@ export const SITE = {
   phoneHref: "tel:+39 344 1304 304", // TODO: inserire numero reale
   phoneLabel: "+39 344 1304 304",
   address: "Via D. Sesia, 4, 27020 Trivolzio PV",
-  hours: "Lunedí, Chiuso",
-  hours: "Martedí, 19:30 - 22:30",
-  hours: "Mercoledí, 19:30 - 22:30",
-  hours: "Giovedí, 12:30 - 14:30   19:30 - 22:30",
-  hours: "Venerdí, 12:30 - 14:30   19:30 - 22:30",
-  hours: "Sabato, 12:30 - 14:30   19:30 - 22:30",
-  hours: "Domenica, 12:30 - 14:00   19:30 - 22:00",
+ hours: [
+  { day: "Lunedì", time: "Chiuso" },
+  { day: "Martedì", time: "19:30 - 22:30" },
+  { day: "Mercoledì", time: "19:30 - 22:30" },
+  { day: "Giovedì", time: "12:30 - 14:30 / 19:30 - 22:30" },
+  { day: "Venerdì", time: "12:30 - 14:30 / 19:30 - 22:30" },
+  { day: "Sabato", time: "12:30 - 14:30 / 19:30 - 22:30" },
+  { day: "Domenica", time: "12:30 - 14:00 / 19:30 - 22:00" },
+],
   
   mapQuery: "Trivolzio, Italia", // TODO: sostituire con indirizzo reale
 };
