@@ -76,7 +76,8 @@ export const MENU: { category: string; items: MenuItem[] }[] = [
     ],
   },
 
-category: "Crudo di Mare",
+{
+  category: "Crudo di Mare",
     items: [
       {
         name: "Carpaccio di",
