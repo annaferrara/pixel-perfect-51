@@ -195,9 +195,5 @@ export const MENU: { category: string; items: MenuItem[] }[] = [
       },
     ],
   },
-
-  
-    ],
-  },
 ];
 
