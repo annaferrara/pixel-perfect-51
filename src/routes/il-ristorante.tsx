@@ -26,7 +26,7 @@ export const Route = createFileRoute("/il-ristorante")({
 const GALLERY = [
   { src: sala, alt: "La sala con i tavoli in legno", cls: "md:col-span-2 md:row-span-2" },
   { src: cozze, alt: "Cozze alla tarantina", cls: "" },
-  { src: ingredienti, alt: "Ingredienti pugliesi: olio, pomodorini, taralli", cls: "" },
+  { src: quadro, alt: "Ingredienti pugliesi: olio, pomodorini, taralli", cls: "" },
   { src: pesce, alt: "Pesce del giorno alla griglia", cls: "" },
   { src: hero, alt: "Un tavolo affacciato sul mare", cls: "md:col-span-2" },
   { src: tiella, alt: "Tiella di riso, patate e cozze", cls: "" },
