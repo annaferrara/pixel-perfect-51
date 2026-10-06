@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Phone } from "lucide-react";
 import hero from "@/assets/hero.jpg";
 import sala from "@/assets/sala.jpg";
-import taranto from "@/heronew.jpg";
+import taranto from "@/hero.jpg";
 import { SiteShell } from "@/components/site/Layout";
 import { Reveal } from "@/components/site/Reveal";
 import { SITE, SPECIALITA } from "@/content/site";
