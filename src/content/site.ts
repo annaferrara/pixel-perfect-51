@@ -59,23 +59,43 @@ export const MENU: { category: string; items: MenuItem[] }[] = [
     category: "Antipasti",
     items: [
       {
-        name: "Cozze crude del Mar Piccolo",
-        price: "€ —",
+        name: "Cozze Gratinate",
+        price: "",
         description: "Servite con limone, come vuole la tradizione.",
       },
       {
-        name: "Impepata di cozze",
-        price: "€ —",
+        name: "Frittura Mista",
+        price: "",
         description: "Cozze, pepe nero, prezzemolo e crostini di pane.",
       },
       {
-        name: "Antipasto della casa",
-        price: "€ —",
+        name: "Tris dell'Oste",
+        price: "",
         description: "Assaggi di mare e di terra secondo la giornata.",
       },
     ],
   },
 
+category: "Crudo di Mare",
+    items: [
+      {
+        name: "Carpaccio di",
+        price: "",
+        description: "Servite con limone, come vuole la tradizione.",
+      },
+      {
+        name: "Ostriche",
+        price: "",
+        description: "Cozze, pepe nero, prezzemolo e crostini di pane.",
+      },
+      {
+        name: "Scampi",
+        price: "",
+        description: "Assaggi di mare e di terra secondo la giornata.",
+      },
+    ],
+  },
+  
   {
     category: "Primi",
     items: [
