@@ -37,7 +37,7 @@ function Contatti() {
                 </span>
                 <div>
                   <p className="eyebrow">{r.label}</p>
-                  <p className="mt-1 text-lg text-wood">{r.value}</p>
+                  <p className="mt-1 whitespace-pre-line text-lg text-wood">{r.value}</p>
                 </div>
               </li>
             ))}
