@@ -56,7 +56,7 @@ function Ristorante() {
         <p>Pochi tavoli, un'accoglienza sincera e una cucina che non ha bisogno di effetti speciali.</p>
       </Block>
       <div className="bg-cream">
-       <Block eyebrow="La nostra storia" title="Una cucina di famiglia" image={quadro} alt="Interno dell'osteria">
+       <Block eyebrow="La nostra storia" title="Una cucina di famiglia" image={ingredienti} alt="Interno dell'osteria">
           <p>Il pesce arriva fresco, le verdure seguono le stagioni, l'olio è pugliese. Scegliamo bene e poi lasciamo parlare gli ingredienti.</p>
           <p>Le ricette sono quelle della tradizione, preparate con cura e senza fretta.</p>
         </Block>
