@@ -19,7 +19,7 @@ export const Route = createFileRoute("/menu")({
 function MenuPage() {
   return (
     <SiteShell>
-      <PageHero eyebrow="Menù" title="Il nostro Menù" image={spaghetti}
+      <PageHero eyebrow="Menù" title="Il nostro Menù" image={cavatelli2}
         subtitle="I sapori della tradizione tarantina, il profumo del mare e la semplicità della cucina pugliese." />
       <div className="mx-auto max-w-4xl px-4 py-20 md:px-8">
         <nav className="mb-16 flex flex-wrap justify-center gap-3" aria-label="Categorie">
