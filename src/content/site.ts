@@ -101,18 +101,18 @@ export const MENU: { category: string; items: MenuItem[] }[] = [
     category: "Primi",
     items: [
       {
-        name: "Spaghetti alle cozze",
-        price: "€ —",
+        name: "Cavatelli Con Le Cozze",
+        price: "",
         description: "Cozze, pomodorini, aglio e prezzemolo.",
       },
       {
-        name: "Orecchiette alle cime di rapa",
-        price: "€ —",
+        name: "Spaghetto Alle Vongole",
+        price: "",
         description: "Pasta fresca, cime di rapa, acciughe e mollica.",
       },
       {
-        name: "Tiella alla Tarantina",
-        price: "€ —",
+        name: ""Spaghetto Allo Scoglio,
+        price: "",
         description: "Riso, patate e cozze al forno.",
       },
     ],
@@ -122,18 +122,23 @@ export const MENU: { category: string; items: MenuItem[] }[] = [
     category: "Secondi",
     items: [
       {
-        name: "Pesce del giorno",
-        price: "€ —",
+        name: "Polpo Su Letto Di Purea Di Fave",
+        price: "",
         description: "Alla griglia, al forno o all'acqua pazza.",
       },
       {
-        name: "Frittura di paranza",
-        price: "€ —",
+        name: "Zuppa Di Pesce",
+        price: "",
         description: "Pesce piccolo fritto, croccante e leggero.",
       },
       {
-        name: "Cozze alla Tarantina",
-        price: "€ —",
+        name: "Filetto Di Ricciola Al Forno Con Contorno",
+        price: "",
+        description: "Al sugo di pomodoro con pane abbrustolito.",
+      },
+     {
+        name: "Filetto Di Rana Pescatrice In Guazzetto Con Contorno",
+        price: "",
         description: "Al sugo di pomodoro con pane abbrustolito.",
       },
     ],
