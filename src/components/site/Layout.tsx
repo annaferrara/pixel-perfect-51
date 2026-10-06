@@ -28,7 +28,7 @@ export function Header() {
           ))}
         </nav>
         <div className="flex items-center gap-2">
-          <a href={SITE.phoneHref} className="btn-book hidden md:flex">
+          <a href={SITE.phoneHref} className="btn-book bg-sea text-white hover:bg-sea/90 hidden md:flex"
             <Phone className="h-4 w-4" aria-hidden /> Prenota Ora
           </a>
           <button className="rounded-md p-2 text-wood md:hidden" onClick={() => setOpen(!open)} aria-label="Apri menu" aria-expanded={open}>
