@@ -148,15 +148,25 @@ export const MENU: { category: string; items: MenuItem[] }[] = [
     category: "Contorni",
     items: [
       {
-        name: "Patate al forno",
-        price: "€ —",
+        name: "Patate Arrosto",
+        price: "",
         description: "Con rosmarino e olio extravergine pugliese.",
       },
       {
-        name: "Verdure di stagione",
-        price: "€ —",
+        name: "Erbette Saltate In Padella",
+        price: "",
         description: "Grigliate o ripassate in padella.",
       },
+      {
+        name: "Cicoria Saltata In Padella",
+        price: "",
+        description: "Grigliate o ripassate in padella.",
+      }, 
+      {
+        name: "Insalata Verde",
+        price: "",
+        description: "Grigliate o ripassate in padella.",
+      }, 
     ],
   },
 
