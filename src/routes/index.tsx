@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Phone } from "lucide-react";
-import hero from "@/assets/hero.jpg";
+import hero from "@/assets/13dafce-a1e2-4d28-9734-ed4ee8c39546.jpg";
 import sala from "@/assets/sala.jpg";
 import taranto from "@/assets/c13dafce-a1e2-4d28-9734-ed4ee8c39546.jpg";
 import { SiteShell } from "@/components/site/Layout";
