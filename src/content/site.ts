@@ -111,7 +111,7 @@ export const MENU: { category: string; items: MenuItem[] }[] = [
         description: "Pasta fresca, cime di rapa, acciughe e mollica.",
       },
       {
-        name: ""Spaghetto Allo Scoglio,
+        name: "Spaghetto Allo Scoglio",
         price: "",
         description: "Riso, patate e cozze al forno.",
       },
