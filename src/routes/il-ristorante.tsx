@@ -3,6 +3,7 @@ import sala from "@/assets/tavoli.jpg";
 import salaBassa from "@/assets/sala.jpg";
 import taranto from "@/assets/taranto.jpg";
 import ingredienti from "@/assets/ingredienti.jpg";
+import quadro from "@/assets/quadro.jpg";
 import hero from "@/assets/hero.jpg";
 import cozze from "@/assets/cozze.jpg";
 import tiella from "@/assets/tiella.jpg";
@@ -55,7 +56,7 @@ function Ristorante() {
         <p>Pochi tavoli, un'accoglienza sincera e una cucina che non ha bisogno di effetti speciali.</p>
       </Block>
       <div className="bg-cream">
-        <Block reverse eyebrow="La filosofia" title="Prima di tutto, la materia prima" image={ingredienti} alt="Ingredienti freschi del territorio">
+        <Block reverse eyebrow="La filosofia" title="Prima di tutto, la materia prima" image={quadro} alt="Ingredienti freschi del territorio">
           <p>Il pesce arriva fresco, le verdure seguono le stagioni, l'olio è pugliese. Scegliamo bene e poi lasciamo parlare gli ingredienti.</p>
           <p>Le ricette sono quelle della tradizione, preparate con cura e senza fretta.</p>
         </Block>
