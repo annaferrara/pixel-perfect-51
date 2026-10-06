@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import spaghetti from "@/assets/spaghetti.jpg";
+import cavatelli2 from "@/assets/cavatelli2.jpg";
 import { PageHero, SiteShell } from "@/components/site/Layout";
 import { Reveal } from "@/components/site/Reveal";
 import { MENU } from "@/content/site";
