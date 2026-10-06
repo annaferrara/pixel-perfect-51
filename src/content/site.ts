@@ -10,12 +10,12 @@ export const SITE = {
   phoneLabel: "+39 344 1304 304",
   address: "Via D. Sesia, 4, 27020 Trivolzio PV",
 
-  hours: `Lunedì — Chiuso<br>
-Martedì — 19:30 - 22:30<br>
+  hours: `Lunedì — Chiuso
+Martedì — 19:30 - 22:30
 Mercoledì — 19:30 - 22:30<br>
-Giovedì — 12:30 - 14:30 / 19:30 - 22:30<br>
-Venerdì — 12:30 - 14:30 / 19:30 - 22:30<br>
-Sabato — 12:30 - 14:30 / 19:30 - 22:30<br>
+Giovedì — 12:30 - 14:30 / 19:30 - 22:30
+Venerdì — 12:30 - 14:30 / 19:30 - 22:30
+Sabato — 12:30 - 14:30 / 19:30 - 22:30
 Domenica — 12:30 - 14:00 / 19:30 - 22:00`,
 
   mapQuery: "Via D. Sesia, 4, 27020 Trivolzio PV",
