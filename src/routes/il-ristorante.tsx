@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import sala from "@/assets/tavoli.jpg";
-import salaBassa from "@/assets/genitori.jpg";
+import salabassa from "@/assets/genitori.jpg";
 import taranto from "@/assets/taranto.jpg";
 import ingredienti from "@/assets/ingredienti.jpg";
 import quadro from "@/assets/quadro.jpg";
@@ -51,7 +51,7 @@ function Ristorante() {
   return (
     <SiteShell>
       <PageHero eyebrow="Il Ristorante" title="La nostra osteria" image={sala} />
-     <Block eyebrow="La nostra storia" title="Una cucina di famiglia" image={salaBassa} alt="Interno dell'osteria">
+     <Block eyebrow="La nostra storia" title="Una cucina di famiglia" image={salabassa} alt="Interno dell'osteria">
         <p>L'Osteria Tarantina è nata per riportare in tavola i piatti che abbiamo sempre mangiato a casa: quelli delle domeniche, delle feste, delle sere d'estate vicino al mare.</p>
         <p>Pochi tavoli, un'accoglienza sincera e una cucina che non ha bisogno di effetti speciali.</p>
       </Block>
