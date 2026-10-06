@@ -174,36 +174,29 @@ export const MENU: { category: string; items: MenuItem[] }[] = [
     category: "Dolci",
     items: [
       {
-        name: "Pasticciotto",
-        price: "€ —",
-        description: "Pasta frolla e crema pasticcera.",
+        name: "Frizzulla",
+        price: "",
+        description: "Noci, Frisella, Cacao Amaro, Caffé Dec.",
       },
       {
-        name: "Dolce della casa",
-        price: "€ —",
-        description: "Chiedete al personale la proposta del giorno.",
+        name: "Crostata Al Pistacchio",
+        price: "",
+        description: "Pasta Frolla, Pistacchio, Ricotta di Capra, Marmellata di Fichi",
+      },
+      {
+        name: "Tortino Di Cioccolato",
+        price: "",
+        description: "Cacao",
+      },
+      {
+        name: "Tiramisú (Secondo Noi)",
+        price: "",
+        description: "Crema di Mascarpone e Biscotto Sbriciolato",
       },
     ],
   },
 
-  {
-    category: "Bevande",
-    items: [
-      {
-        name: "Vino della casa",
-        price: "€ —",
-        description: "Bianco, rosato o Primitivo, al calice o in caraffa.",
-      },
-      {
-        name: "Acqua minerale",
-        price: "€ —",
-        description: "Naturale o frizzante.",
-      },
-      {
-        name: "Birra artigianale pugliese",
-        price: "€ —",
-        description: "Selezione di birrifici locali.",
-      },
+  
     ],
   },
 ];
