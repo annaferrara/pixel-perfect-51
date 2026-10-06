@@ -17,7 +17,7 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-wood/10 bg-background/95 backdrop-blur">
       <div className="mx-auto flex h-18 max-w-7xl items-center justify-between gap-4 px-4 py-3 md:px-8">
         <Link to="/" className="flex items-center gap-2 font-serif text-2xl font-semibold text-wood">
-          <img src={logo} alt="Osteria Tarantina" className="h-25 w-auto object-contain" />
+          <img src={logo} alt="Osteria Tarantina" className="h-21 w-auto object-contain" />
         </Link>
         <nav className="hidden items-center gap-8 md:flex" aria-label="Principale">
           {NAV.map((n) => (
