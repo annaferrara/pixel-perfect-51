@@ -1,8 +1,8 @@
 // Tutti i contenuti modificabili del sito in un unico posto.
 import gratin from "@/assets/gratin.jpg";
 import cavatelli2 from "@/assets/cavatelli2.jpg";
-import pesce from "@/assets/pesce.jpg";
-import spaghetti from "@/assets/spaghetti.jpg";
+import vongole from "@/assets/vongole.jpg";
+import scampi from "@/assets/scampi.jpg";
 
 export const SITE = {
   name: "Osteria Tarantina",
@@ -36,14 +36,14 @@ export const SPECIALITA = [
       "Il grande classico della tradizione locale, con ricci e salsa ai tre pomodori.",
   },
   {
-    name: "Pesce del giorno",
-    image: pesce,
+    name: "Chitarrine Alle Vongole",
+    image: vongole,
     description:
-      "Pesce fresco selezionato in base alla disponibilità e preparato nel rispetto della materia prima.",
+      "Chitarrine alle vongole veraci, aglio, olio e prezzemolo. Semplici e saporite, dal gusto autentico di mare.",
   },
   {
-    name: "Spaghetti alle cozze",
-    image: spaghetti,
+    name: "SCampi E Cozze",
+    image: scampi,
     description:
       "Un primo piatto semplice e ricco di sapore, ispirato ai profumi del mare di Taranto.",
   },
