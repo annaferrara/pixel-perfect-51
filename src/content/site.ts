@@ -60,19 +60,29 @@ export const MENU: { category: string; items: MenuItem[] }[] = [
     category: "Antipasti",
     items: [
       {
-        name: "Cozze Gratinate",
+        name: "Alice Marinata A Modo Nostro",
         price: "",
-        description: "Servite con limone, come vuole la tradizione.",
+        description: "Olio, aceto, pepe rosa.",
       },
       {
-        name: "Frittura Mista",
+        name: "Zuppa Di Eracle",
         price: "",
-        description: "Cozze, pepe nero, prezzemolo e crostini di pane.",
+        description: "Purea di fave e cicoria.",
       },
       {
-        name: "Tris dell'Oste",
+        name: "Cozze Al Gratin Al Parmigiano 36 Mesi",
         price: "",
-        description: "Assaggi di mare e di terra secondo la giornata.",
+        description: "Cozze, mollica di pane, parmigiano reggiano.",
+      },
+      {
+        name: "Zuppetta Di Moscardino",
+        price: "",
+        description: "Moscardino, tre pomodori, olive taggiasche.",
+      },
+       {
+        name: "Lampuga Mediterranea In Agrodolce",
+        price: "",
+        description: "Lampuga fritta, cipolla di Tropea.",
       },
     ],
   },
