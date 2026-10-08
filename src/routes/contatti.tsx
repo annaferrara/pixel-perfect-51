@@ -19,7 +19,18 @@ export const Route = createFileRoute("/contatti")({
 function Contatti() {
   const rows = [
     { icon: Phone, label: "Telefono", value: <a href={SITE.phoneHref} className="hover:text-sea-deep">{SITE.phoneLabel}</a> },
-    { icon: MapPin, label: "Indirizzo", value: SITE.address },
+    {
+  icon: MapPin,
+  label: "Indirizzo",
+  value: (
+    <>
+      <span>{SITE.address}</span>
+      <span className="mt-1 block text-sm text-muted-foreground">
+        {SITE.parking}
+      </span>
+    </>
+  ),
+},
     { icon: Clock, label: "Orari", value: SITE.hours },
     { icon: Mail, label: "Email", value: SITE.email },
   ];
