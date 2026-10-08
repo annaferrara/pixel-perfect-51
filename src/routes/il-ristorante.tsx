@@ -8,6 +8,7 @@ import hero from "@/assets/hero.jpg";
 import cozze from "@/assets/cozze.jpg";
 import tiella from "@/assets/tiella.jpg";
 import pesce from "@/assets/pesce.jpg";
+import piattovino from "@/assets/piattovino.jpg";
 import { PageHero, SiteShell } from "@/components/site/Layout";
 import { Reveal } from "@/components/site/Reveal";
 
@@ -30,6 +31,7 @@ const GALLERY = [
   { src: pesce, alt: "Pesce del giorno alla griglia", cls: "" },
   { src: hero, alt: "Un tavolo affacciato sul mare", cls: "md:col-span-2" },
   { src: tiella, alt: "Tiella di riso, patate e cozze", cls: "" },
+  { src: piattovino, alt: "Piatto pasta e vino Aka", cls: "" },
 ];
 
 function Block({ eyebrow, title, children, image, alt, reverse }: { eyebrow: string; title: string; children: React.ReactNode; image: string; alt: string; reverse?: boolean }) {
