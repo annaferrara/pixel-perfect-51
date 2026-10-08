@@ -122,12 +122,17 @@ export const MENU: { category: string; items: MenuItem[] }[] = [
         description: "Cozze, pomodorini, aglio e prezzemolo.",
       },
       {
-        name: "Spaghetto Alle Vongole",
+        name: "Chitarrine Con Vongole",
         price: "",
         description: "Pasta fresca, cime di rapa, acciughe e mollica.",
       },
       {
-        name: "Spaghetto Allo Scoglio",
+        name: "Calamarata Al Polpo",
+        price: "",
+        description: "Riso, patate e cozze al forno.",
+      },
+      {
+        name: "Cavatelli Con Guancette Di Rana Pescatrice",
         price: "",
         description: "Riso, patate e cozze al forno.",
       },
@@ -143,17 +148,22 @@ export const MENU: { category: string; items: MenuItem[] }[] = [
         description: "Alla griglia, al forno o all'acqua pazza.",
       },
       {
-        name: "Zuppa Di Pesce",
+        name: "La Frittura Di Nonno Nicola",
         price: "",
         description: "Pesce piccolo fritto, croccante e leggero.",
       },
       {
-        name: "Filetto Di Ricciola Al Forno Con Contorno",
+        name: "Filetto Di Pescato Al Forno",
         price: "",
         description: "Al sugo di pomodoro con pane abbrustolito.",
       },
      {
-        name: "Filetto Di Rana Pescatrice In Guazzetto Con Contorno",
+        name: "Filetto Di Pescato Alla Mediterranea",
+        price: "",
+        description: "Al sugo di pomodoro con pane abbrustolito.",
+      },
+      {
+        name: "Zuppa Mamma Rosa",
         price: "",
         description: "Al sugo di pomodoro con pane abbrustolito.",
       },
@@ -164,7 +174,7 @@ export const MENU: { category: string; items: MenuItem[] }[] = [
     category: "Contorni",
     items: [
       {
-        name: "Patate Arrosto",
+        name: "Broccoli Saltati",
         price: "",
         description: "Con rosmarino e olio extravergine pugliese.",
       },
