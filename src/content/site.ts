@@ -1,6 +1,6 @@
 // Tutti i contenuti modificabili del sito in un unico posto.
 import gratin from "@/assets/gratin.jpg";
-import tiella from "@/assets/tiella.jpg";
+import cavatelli2 from "@/assets/cavatelli2.jpg";
 import pesce from "@/assets/pesce.jpg";
 import spaghetti from "@/assets/spaghetti.jpg";
 
@@ -27,13 +27,13 @@ export const SPECIALITA = [
     name: "Cozze al Gratin",
     image: gratin,
     description:
-      "Cozze fresche preparate secondo la tradizione, con i sapori semplici e autentici della cucina tarantina.",
+      "Cozze fresche preparate secondo la tradizione, gratinate con Parmigiano Regginano stagionato 36 Mesi.",
   },
   {
-    name: "Tiella",
-    image: tiella,
+    name: "Spaghetti Ai Ricci",
+    image: cavatelli2,
     description:
-      "Il grande classico della tradizione locale, con riso, patate e cozze.",
+      "Il grande classico della tradizione locale, con ricci e salsa ai tre pomodori.",
   },
   {
     name: "Pesce del giorno",
