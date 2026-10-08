@@ -1,5 +1,5 @@
 // Tutti i contenuti modificabili del sito in un unico posto.
-import cozze from "@/assets/cozze.jpg";
+import gratin from "@/assets/gratin.jpg";
 import tiella from "@/assets/tiella.jpg";
 import pesce from "@/assets/pesce.jpg";
 import spaghetti from "@/assets/spaghetti.jpg";
