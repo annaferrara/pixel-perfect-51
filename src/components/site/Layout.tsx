@@ -70,7 +70,12 @@ export function Footer() {
           <p className="eyebrow !text-sea">Contatti</p>
           <ul className="mt-4 space-y-2 text-sm text-primary-foreground/85">
             <li><a href={SITE.phoneHref} className="hover:text-sea">{SITE.phoneLabel}</a></li>
-            <li>{SITE.address}</li>
+            <li>
+  {SITE.address}
+  <div className="mt-1 text-xs text-primary-foreground/60">
+    {SITE.parking}
+  </div>
+</li>
             <li>{SITE.email}</li>
           </ul>
         </div>
