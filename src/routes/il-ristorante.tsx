@@ -9,6 +9,7 @@ import cozze from "@/assets/cozze.jpg";
 import tiella from "@/assets/tiella.jpg";
 import pesce from "@/assets/pesce.jpg";
 import piattovino from "@/assets/piattovino.jpg";
+import soffitto from "@/assets/soffitto.jpg";
 import { PageHero, SiteShell } from "@/components/site/Layout";
 import { Reveal } from "@/components/site/Reveal";
 
@@ -29,6 +30,7 @@ const GALLERY = [
   { src: cozze, alt: "Cozze alla tarantina", cls: "" },
   { src: salabassa, alt: "Ingredienti pugliesi: olio, pomodorini, taralli", cls: "" },
   { src: pesce, alt: "Pesce del giorno alla griglia", cls: "" },
+  { src: soffitto, alt: "Soffitto del ristorante", cls: "" },
   { src: hero, alt: "Un tavolo affacciato sul mare", cls: "md:col-span-2" },
   { src: tiella, alt: "Tiella di riso, patate e cozze", cls: "" },
   { src: piattovino, alt: "Piatto pasta e vino Aka", cls: "" },
