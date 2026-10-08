@@ -95,7 +95,7 @@ function Home() {
           <p className="eyebrow">Il Ristorante</p>
           <h2 className="mt-4 text-4xl md:text-5xl">Una storia di mare e tradizione</h2>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            L'Osteria Tarantina nasce dall'amore per la nostra città e per il suo mare. Tavoli di legno, tovaglie semplici,
+            L'Osteria Tarantina nasce dall'amore per la nostra città e per il suo mare. Tavoli di legno, apparecchiatura semplice,
             una cucina dove si preparano i piatti di sempre con ingredienti di qualità.
           </p>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
