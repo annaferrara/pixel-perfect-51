@@ -45,7 +45,7 @@ function Home() {
       <section className="mx-auto max-w-3xl px-4 py-24 text-center md:py-32">
         <Reveal>
           <p className="eyebrow">La filosofia</p>
-          <h2 className="mt-4 text-4xl md:text-5xl">La nostra cucina, la nostra terra.</h2>
+          <h2 className="mt-4 text-4xl md:text-5xl">Da noi ogni piatto racconta una storia.</h2>
           <div className="mx-auto my-8 h-px w-16 bg-sea-deep" />
           <p className="text-lg leading-relaxed text-muted-foreground">
             Qui si cucina come si è sempre fatto a Taranto: le cozze del Mar Piccolo, il pesce che arriva la mattina,
