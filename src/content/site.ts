@@ -91,19 +91,24 @@ export const MENU: { category: string; items: MenuItem[] }[] = [
   category: "Crudo di Mare",
     items: [
       {
-        name: "Carpaccio di",
+        name: "Gamberi",
         price: "",
-        description: "Servite con limone, come vuole la tradizione.",
+        description: "",
       },
       {
         name: "Ostriche",
         price: "",
-        description: "Cozze, pepe nero, prezzemolo e crostini di pane.",
+        description: "",
       },
       {
         name: "Scampi",
         price: "",
-        description: "Assaggi di mare e di terra secondo la giornata.",
+        description: "",
+      },
+      {
+        name: "Carpaccio/Tartar di...",
+        price: "",
+        description: "",
       },
     ],
   },
