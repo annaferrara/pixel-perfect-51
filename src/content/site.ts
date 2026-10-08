@@ -29,7 +29,7 @@ export const SPECIALITA = [
       "Cozze fresche preparate secondo la tradizione, con i sapori semplici e autentici della cucina tarantina.",
   },
   {
-    name: "Tiella alla Tarantina",
+    name: "Tiella",
     image: tiella,
     description:
       "Il grande classico della tradizione locale, con riso, patate e cozze.",
