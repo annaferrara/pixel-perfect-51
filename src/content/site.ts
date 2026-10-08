@@ -24,8 +24,8 @@ Domenica  12:30 - 14:30 / 19:30 - 22:30`,
 
 export const SPECIALITA = [
   {
-    name: "Cozze alla Tarantina",
-    image: cozze,
+    name: "Cozze al Gratin",
+    image: gratin,
     description:
       "Cozze fresche preparate secondo la tradizione, con i sapori semplici e autentici della cucina tarantina.",
   },
