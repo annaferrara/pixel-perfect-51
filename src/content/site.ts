@@ -42,7 +42,7 @@ export const SPECIALITA = [
       "Chitarrine alle vongole veraci, aglio, olio e prezzemolo. Semplici e saporite, dal gusto autentico di mare.",
   },
   {
-    name: "SCampi E Cozze",
+    name: "Scampi E Cozze",
     image: scampi,
     description:
       "Un primo piatto semplice e ricco di sapore, ispirato ai profumi del mare di Taranto.",
