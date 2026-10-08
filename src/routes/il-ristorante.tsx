@@ -26,7 +26,7 @@ export const Route = createFileRoute("/il-ristorante")({
 const GALLERY = [
   { src: sala, alt: "La sala con i tavoli in legno", cls: "md:col-span-2 md:row-span-2" },
   { src: cozze, alt: "Cozze alla tarantina", cls: "" },
-  { src: quadro, alt: "Ingredienti pugliesi: olio, pomodorini, taralli", cls: "" },
+  { src: salabassa, alt: "Ingredienti pugliesi: olio, pomodorini, taralli", cls: "" },
   { src: pesce, alt: "Pesce del giorno alla griglia", cls: "" },
   { src: hero, alt: "Un tavolo affacciato sul mare", cls: "md:col-span-2" },
   { src: tiella, alt: "Tiella di riso, patate e cozze", cls: "" },
@@ -51,7 +51,7 @@ function Ristorante() {
   return (
     <SiteShell>
       <PageHero eyebrow="Il Ristorante" title="La nostra osteria" image={sala} />
-     <Block eyebrow="La nostra storia" title="Una cucina di famiglia" image={salabassa} alt="Interno dell'osteria">
+     <Block eyebrow="La nostra storia" title="Una cucina di famiglia" image={quadro} alt="Interno dell'osteria">
         <p>L'Osteria Tarantina è nata per riportare in tavola i piatti che abbiamo sempre mangiato a casa: quelli delle domeniche, delle feste, delle sere d'estate vicino al mare.</p>
         <p>Pochi tavoli, un'accoglienza sincera e una cucina che non ha bisogno di effetti speciali.</p>
       </Block>
