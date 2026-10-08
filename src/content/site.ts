@@ -9,6 +9,7 @@ export const SITE = {
   phoneHref: "tel:+39 344 1304 304",
   phoneLabel: "+39 344 1304 304",
   address: "Via D. Sesia, 4, 27020 Trivolzio PV",
+  parking: "* Parcheggi disponibili in Via Sesia, 25",
 
   hours: `Lunedì  Chiuso
 Martedì  19:30 - 22:30
