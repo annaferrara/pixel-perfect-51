@@ -97,7 +97,8 @@ export function Footer() {
 export function MobileBookBar() {
   return (
     <div className="fixed inset-x-0 bottom-0 z-40 border-t border-wood/10 bg-background/95 p-3 backdrop-blur md:hidden">
-      <a href={SITE.phoneHref} className="btn-book w-full !py-4 !text-base">
+<a href={SITE.phoneHref} className="btn-book w-full !py-4 !text-base" style={{ backgroundColor: "#7294C1" }}>
+
         <Phone className="h-5 w-5" aria-hidden /> Prenota Ora — Chiama
       </a>
     </div>
