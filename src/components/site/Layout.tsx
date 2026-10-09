@@ -28,7 +28,8 @@ export function Header() {
           ))}
         </nav>
         <div className="flex items-center gap-2">
-<a href={SITE.phoneHref} className="btn-book w-full !py-4 !text-base text-white" style={{ backgroundColor: "#7394BF" }}>
+<a href={SITE.phoneHref} className="btn-book text-white hidden md:flex !px-4 !py-2 !text-sm" style={{ backgroundColor: "#7394BF" }}>
+
             <Phone className="h-4 w-4" aria-hidden /> Prenota Ora
           </a>
           <button className="rounded-md p-2 text-wood md:hidden" onClick={() => setOpen(!open)} aria-label="Apri menu" aria-expanded={open}>
