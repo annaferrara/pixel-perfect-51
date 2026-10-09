@@ -28,7 +28,6 @@ export function Header() {
           ))}
         </nav>
         <div className="flex items-center gap-2">
-          ```tsx
 <a href={SITE.phoneHref} className="btn-book w-full !py-4 !text-base text-white" style={{ backgroundColor: "#7394BF" }}>
 
             <Phone className="h-4 w-4" aria-hidden /> Prenota Ora
