@@ -33,7 +33,8 @@ function Home() {
               Cucina tarantina, specialità di mare e tradizione pugliese in un'atmosfera semplice e accogliente.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
-              <Link to="/menu" className="btn-sea">Scopri il Menù</Link>
+<Link to="/menu" className="btn-sea" style={{ backgroundColor: "#7394BF", color: "#FFFFFF" }}>Scopri il Menù</Link>
+
               <a href={SITE.phoneHref} className="btn-book !bg-transparent border border-primary-foreground/70 hover:!bg-sea-deep">
                 <Phone className="h-4 w-4" aria-hidden /> Prenota Ora
               </a>
