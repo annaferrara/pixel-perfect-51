@@ -112,7 +112,8 @@ function Home() {
         <Reveal className="mx-auto max-w-2xl px-4">
           <h2 className="text-4xl !text-primary-foreground md:text-5xl">Ti aspettiamo a tavola</h2>
           <p className="mt-4 text-primary-foreground/80">Per prenotare basta una telefonata.</p>
-          <a href={SITE.phoneHref} className="btn-sea mt-8 !px-10 !py-4 !text-base">
+<a href={SITE.phoneHref} className="btn-sea mt-8 !px-10 !py-4 !text-base" style={{ backgroundColor: "#7394BF", color: "#FFFFFF" }}>
+
             <Phone className="h-5 w-5" aria-hidden /> Prenota Ora
           </a>
         </Reveal>
