@@ -43,10 +43,10 @@ export const SPECIALITA = [
       "Chitarrine alle vongole veraci, aglio, olio e prezzemolo. Semplici e saporite, dal gusto autentico di mare.",
   },
   {
-    name: "Scampi E Cozze",
+    name: "Zuppa Mamma Rosa",
     image: scampi,
     description:
-      "Un primo piatto semplice e ricco di sapore, ispirato ai profumi del mare di Taranto.",
+      "Un secondo piatto semplice e ricco di sapore, ispirato ai profumi del mare di Taranto.",
   },
 ];
 
