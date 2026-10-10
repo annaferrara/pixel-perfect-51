@@ -30,7 +30,7 @@ function Home() {
             <p className="eyebrow !text-sea">Osteria · Taranto</p>
             <h1 className="mt-4 text-5xl !text-primary-foreground sm:text-6xl md:text-7xl">I sapori autentici di Taranto, a tavola.</h1>
             <p className="mt-6 text-lg text-primary-foreground/90 md:text-xl">
-              Cucina tarantina, specialità di mare e tradizione pugliese in un'atmosfera semplice e accogliente.
+              Cucina tarantina a Pavia, specialità di mare e tradizione pugliese. Una tavola semplice, come a casa.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
 <Link to="/menu" className="btn-sea" style={{ backgroundColor: "#7394BF", color: "#FFFFFF" }}>Scopri il Menù</Link>
