@@ -58,7 +58,7 @@ export function Footer() {
         <div>
           <p className="font-serif text-3xl">Osteria Tarantina</p>
           <p className="mt-3 max-w-xs text-sm text-primary-foreground/75">
-            Cucina tarantina, specialità di mare e tradizione pugliese. Una tavola semplice, come a casa.
+            Cucina tarantina a Pavia, specialità di mare e tradizione pugliese. Una tavola semplice, come a casa.
           </p>
         </div>
         <div>
