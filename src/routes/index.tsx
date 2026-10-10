@@ -52,6 +52,7 @@ function Home() {
             Qui si cucina come si è sempre fatto a Taranto: le cozze del Mar Piccolo, il pesce che arriva la mattina,
             l'olio buono e il pane da spezzare con le mani. Niente di complicato — solo ricette che conosciamo da sempre
             e ingredienti che rispettiamo. Ci si siede, si chiacchiera, si mangia bene.
+            Tutto questo a Pavia
           </p>
         </Reveal>
       </section>
