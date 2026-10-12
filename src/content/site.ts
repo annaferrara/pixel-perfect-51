@@ -156,7 +156,7 @@ export const MENU: { category: string; items: MenuItem[] }[] = [
       {
         name: "Filetto Di Pescato Al Forno",
         price: "",
-        description: "Filetto, pomodori.",
+        description: "",
       },
      {
         name: "Filetto Di Pescato Alla Mediterranea",
@@ -177,7 +177,7 @@ export const MENU: { category: string; items: MenuItem[] }[] = [
       {
         name: "Broccoli Saltati",
         price: "",
-        description: "Conditi con olio extravergine pugliese",
+        description: "Ripassati in padella",
       },
       {
         name: "Erbette Saltate In Padella",
