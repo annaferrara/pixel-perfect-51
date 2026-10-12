@@ -177,7 +177,7 @@ export const MENU: { category: string; items: MenuItem[] }[] = [
       {
         name: "Broccoli Saltati",
         price: "",
-        description: "Ripassati in padella",
+        description: "Con Rosmarino e olio extravergine pugliese",
       },
       {
         name: "Erbette Saltate In Padella",
