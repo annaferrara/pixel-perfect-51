@@ -177,22 +177,22 @@ export const MENU: { category: string; items: MenuItem[] }[] = [
       {
         name: "Broccoli Saltati",
         price: "",
-        description: "Con rosmarino e olio extravergine pugliese.",
+        description: "Ripassati in padella",
       },
       {
         name: "Erbette Saltate In Padella",
         price: "",
-        description: "Grigliate o ripassate in padella.",
+        description: "Ripassate in padella.",
       },
       {
         name: "Cicoria Saltata In Padella",
         price: "",
-        description: "Grigliate o ripassate in padella.",
+        description: "Ripassate in padella.",
       }, 
       {
         name: "Insalata Verde",
         price: "",
-        description: "Grigliate o ripassate in padella.",
+        description: "",
       }, 
     ],
   },
