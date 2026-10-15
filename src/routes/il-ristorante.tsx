@@ -10,6 +10,8 @@ import tiella from "@/assets/tiella.jpg";
 import pesce from "@/assets/pesce.jpg";
 import piattovino from "@/assets/piattovino.jpg";
 import soffitto from "@/assets/soffitto.jpg";
+import nonno from "@/assets/nonno.jpg";
+import davide from "@/assets/davide.jpg";
 import { PageHero, SiteShell } from "@/components/site/Layout";
 import { Reveal } from "@/components/site/Reveal";
 
@@ -34,6 +36,8 @@ const GALLERY = [
   { src: hero, alt: "Un tavolo affacciato sul mare", cls: "md:col-span-2" },
   { src: tiella, alt: "Tiella di riso, patate e cozze", cls: "" },
   { src: piattovino, alt: "Piatto pasta e vino Aka", cls: "" },
+  { src: nonno, alt: "Nonno Osteria Tarantina", cls: "" },
+  { src: davide, alt: "davide e mamma", cls: "" },
 ];
 
 function Block({ eyebrow, title, children, image, alt, reverse }: { eyebrow: string; title: string; children: React.ReactNode; image: string; alt: string; reverse?: boolean }) {
